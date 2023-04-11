@@ -1,0 +1,31 @@
+table{
+    background-color: cyan;}
+
+
+#name
+{
+    color: aqua;
+}
+#name:hover{
+    color: red;
+}
+
+#author{
+    color:orange;
+}
+
+#author:hover{
+    color: aliceblue;
+}
+
+#date{
+    color: black;
+}
+
+#date:hover{
+    color: aquamarine;
+}
+
+h1{
+    color: green;
+}

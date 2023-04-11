@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/access.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1 >Display Access</h1>
+        <table border="3px">
+            <tr>
+                <th id="name">name</th>
+                <th id="author">author</th>
+                <th id="date">date</th>
+
+            </tr>
+        {% for i in access %}
+            <tr>
+                <td id="ab">{{i.name}}</td>
+                <td id="ac">{{i.author}}</td>
+                <td id="ad">{{i.date}}</td>
+            </tr>
+        {% endfor %}
+        </table>
+    </center>
+</body>
+</html>
